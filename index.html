@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aegis MVP</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aegis v0.2</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header class="top">
 <h1>Aegis</h1>
 <p>Protect the trader. Improve the trader.</p>
 </header>
 
-<section class="card">
-<h2>Portfolio</h2>
-<table>
-<tr><th>Ticker</th><th>Status</th><th>Action</th></tr>
-<tr><td>NVDA</td><td>🟢 Thesis Intact</td><td>Hold</td></tr>
-<tr><td>ASML</td><td>🟢 Thesis Strengthened</td><td>Hold</td></tr>
-</table>
+<div class="grid">
+
+<section class="card hero">
+<h2>Market Health</h2>
+<div class="pill green">🟢 Risk-On</div>
+<p>AI Infrastructure remains the leading theme.</p>
 </section>
 
 <section class="card">
-<h2>Today's Best Opportunity</h2>
-<h3>ASML</h3>
-<p><strong>Buy Score:</strong> 88/100</p>
+<h2>Portfolio</h2>
+<div class="metric">$40 Invested</div>
+<div class="small">$60 Cash Available</div>
+<hr>
+<div class="row"><span>NVDA</span><span>🟢 Hold</span></div>
+<div class="row"><span>ASML</span><span>🟢 Hold</span></div>
+</section>
+
+<section class="card">
+<h2>Today's Best Buy</h2>
+<div class="score">88</div>
+<p>ASML</p>
+<p>High Conviction • AI Infrastructure</p>
+<button>View Analysis</button>
+</section>
+
+<section class="card">
+<h2>Atlas</h2>
 <ul>
-<li>AI infrastructure demand remains strong</li>
-<li>High-quality business</li>
-<li>Premium valuation but long-term thesis intact</li>
+<li>AI demand intact</li>
+<li>No thesis-breaking news</li>
+<li>Monitor earnings & AI CapEx</li>
 </ul>
 </section>
 
 <section class="card">
-<h2>Atlas Daily Snapshot</h2>
-<p>Market Status: Risk-On</p>
-<p>Highest Conviction: AI Infrastructure</p>
-<p>No thesis-breaking events detected.</p>
+<h2>Watchlist</h2>
+<ul>
+<li>Broadcom</li>
+<li>Arista Networks</li>
+<li>TSMC</li>
+<li>Constellation Energy</li>
+</ul>
 </section>
 
 <section class="card">
 <h2>Aegis Decision</h2>
-<p><strong>Current Action:</strong> Hold existing positions. Preserve cash for higher-conviction opportunities.</p>
+<div class="pill blue">HOLD</div>
+<p>Preserve cash until a higher-conviction opportunity or pullback appears.</p>
 </section>
 
-<footer>
-<p>Prototype v0.1</p>
-</footer>
+</div>
+
+<footer>Version 0.2 MVP</footer>
 </body>
 </html>
